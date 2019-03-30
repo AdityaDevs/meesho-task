@@ -1,0 +1,11 @@
+.header {
+    padding: 1em;
+    background: $dblue;
+    color: $white;
+    font-weight: bold;
+    font-size: 2em;
+    &__title {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}

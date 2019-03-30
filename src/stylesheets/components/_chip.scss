@@ -1,0 +1,20 @@
+.chip-collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .chip {
+        display: inline-block;
+        font-size: 0.85em;
+        padding: 0.5em;
+        border-radius: 3px;
+        background: $blue;
+        min-width: 5em;
+        text-align: center;
+        margin: 8px;
+        color: $white;
+        cursor: pointer;
+        &--active {
+            background: #2a5679;
+        }
+    }
+}

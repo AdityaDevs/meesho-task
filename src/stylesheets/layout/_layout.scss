@@ -1,0 +1,20 @@
+.main {
+  max-width: $global-max-width;
+  margin: 0 auto;
+  &__page-content {
+      max-width: 1024px;
+      margin: 0 auto;
+      height: inherit;
+      margin-top: 3em;
+      margin-bottom: 3em;
+      background: $light-gray;
+      padding: 1em;
+      border-radius: 5px;
+  }
+
+  .empty-message,
+  .loader {
+    margin-top: 2em;
+    text-align: center;
+  }
+}
